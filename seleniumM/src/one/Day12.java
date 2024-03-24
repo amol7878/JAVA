@@ -12,7 +12,7 @@ public class Day12 {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\AMOL\\Desktop\\chromedriver\\chromedriver\\chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 
 		driver.get("http://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
 		WebElement ele = driver.findElement(By.cssSelector("#dropdowm-menu-1"));

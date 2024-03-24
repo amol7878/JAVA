@@ -1,6 +1,7 @@
 package one;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -12,7 +13,7 @@ public class Day3 {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\AMOL\\Desktop\\chromedriver\\chromedriver\\chromedriver.exe");
 
-		ChromeDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
 
 		// isDisplayed()

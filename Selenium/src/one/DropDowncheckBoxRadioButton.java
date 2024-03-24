@@ -1,6 +1,7 @@
 package one;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -10,7 +11,7 @@ public class DropDowncheckBoxRadioButton {
 	public static void main(String[] args) {
 		System.setProperty("wbdriver.chrome.driver",
 				"C:\\Users\\AMOL\\Desktop\\chromedriver\\chromedriver\\chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 
 		driver.get("https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
 

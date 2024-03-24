@@ -3,6 +3,7 @@ package one;
 import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Day10 {
@@ -13,7 +14,7 @@ public class Day10 {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\AMOL\\Desktop\\chromedriver\\chromedriver\\chromedriver.exe");
 
-		ChromeDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.webdriveruniversity.com");
 		driver.findElement(By.cssSelector("#contact-us")).click();
 

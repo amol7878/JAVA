@@ -1,6 +1,7 @@
 package one;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Login {
@@ -11,7 +12,7 @@ public class Login {
 		
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\AMOL\\Desktop\\chromedriver\\chromedriver\\chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("https://saucedemo.com/v1/index.html");
 		
 		

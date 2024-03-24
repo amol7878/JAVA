@@ -1,6 +1,7 @@
 package one;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Day7 {
@@ -10,7 +11,7 @@ public class Day7 {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\AMOL\\Desktop\\chromedriver\\chromedriver\\chromedriver.exe");
 
-		ChromeDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html");
 		boolean q1 = driver.findElement(By.cssSelector("#radio-buttons > input[type=radio]:nth-child(3)")).isEnabled();
 		System.out.println(q1);

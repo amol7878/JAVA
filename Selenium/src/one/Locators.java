@@ -1,6 +1,7 @@
 package one;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Locators {
@@ -9,7 +10,7 @@ public class Locators {
 
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\AMOL\\Desktop\\chromedriver\\chromedriver\\chromedriver.exe");
-		ChromeDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("https://webdriveruniversity.com/Contact-Us/contactus.html");
 
 		// finding the single elements
@@ -85,7 +86,7 @@ public class Locators {
 				
 				
 				
-		driver.close();
+//		driver.close();
 	}
 
 }
